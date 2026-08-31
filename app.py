@@ -655,6 +655,7 @@ with c1:
         names="Risk Level",
         values="Provider Count",
         hole=.58,
+        rotation=320,
         color="Risk Level",
         color_discrete_map=RISK_COLORS,
     )
@@ -682,7 +683,7 @@ with c1:
         paper_bgcolor="white",
         showlegend=True,
         legend=dict(
-            font=dict(color="#111827", size=10),
+            font=dict(color="#111827", size=15),
         ),
     )
 
