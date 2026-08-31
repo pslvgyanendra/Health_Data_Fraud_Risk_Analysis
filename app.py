@@ -264,7 +264,7 @@ def compact_layout(fig, title, x_title=None, y_title=None, height=315):
         paper_bgcolor="white",
         plot_bgcolor="white",
         font=dict(family="Arial", color="#111827", size=11),
-        hoverlabel=dict(bgcolor="white", font_size=11, font_family="Arial"),
+        hoverlabel=dict(bgcolor="white", font_size=11, font_family="Arial",font_color="#071125"),
         legend=dict(
             orientation="h",
             yanchor="bottom",
