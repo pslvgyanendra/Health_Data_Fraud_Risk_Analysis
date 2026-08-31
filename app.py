@@ -13,7 +13,7 @@ import streamlit as st
 # ================================================================
 st.set_page_config(
     page_title="Health Provider Fraud Risk & Financial Anomaly Dashboard",
-    page_icon="",
+    page_icon="🏥",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
