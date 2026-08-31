@@ -298,7 +298,7 @@ Example:
 
 | Resource | Link |
 |---|---|
-| 🌐 **Live Dashboard** | `https://health-data-fraud-streamlit.streamlit.app/` |
+| 🌐 **Live Dashboard** | `[https://health-data-fraud-streamlit.streamlit.app/](https://pslvgyanendra-health-data-fraud-streamlit-app-yxe6dt.streamlit.app/)` |
 | 🐙 **GitHub Repository** | `https://github.com/pslvgyanendra/Health_Data_Fraud_Risk_Analysis` |
 
 ---
