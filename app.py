@@ -151,7 +151,7 @@ st.markdown(
 
     .provider-card {
         background: white;
-        border: 1px solid #E2E8F0;
+        border: 1px solid #000000;
         border-radius: 12px;
         padding: 13px;
         margin-top: 8px;
