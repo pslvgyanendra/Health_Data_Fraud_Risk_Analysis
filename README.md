@@ -6,7 +6,7 @@
 
 ## 🚀 Live Dashboard
 
-🔗 **Live Streamlit App:** `https://health-data-fraud-streamlit.streamlit.app/`
+🔗 **Live Streamlit App:** `[https://health-data-fraud-streamlit.streamlit.app/](https://pslvgyanendra-health-data-fraud-streamlit-app-yxe6dt.streamlit.app/)`
 
 > 💡 If your deployed Streamlit URL is different, replace the URL above with your actual app link.
 
