@@ -1,336 +1,170 @@
 # 🏥 Health Data Fraud Risk Analysis Dashboard
 
-> **An interactive Streamlit dashboard for exploring healthcare provider data, identifying fraud-risk patterns, and monitoring key financial and operational indicators.**
+<p align="center">
+
+### 🚨 Healthcare Provider Fraud Risk & Financial Analysis
+
+An interactive **Data Analytics & Fraud Risk Analysis Dashboard** built with **Python, Pandas, Plotly and Streamlit** to explore healthcare provider data, analyze financial and operational KPIs, and identify unusual risk patterns.
+
+<br>
+
+<a href="https://pslvgyanendra-health-data-fraud-streamlit-app-yxe6dt.streamlit.app/">
+  <img src="https://img.shields.io/badge/🚀%20OPEN%20LIVE%20DASHBOARD-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Live Dashboard"/>
+</a>
+
+<a href="https://github.com/pslvgyanendra/Health_Data_Fraud_Risk_Analysis">
+  <img src="https://img.shields.io/badge/💻%20GITHUB%20REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"/>
+</a>
+
+</p>
 
 ---
 
 ## 🚀 Live Dashboard
 
-🔗 **Live Streamlit App:** `[https://health-data-fraud-streamlit.streamlit.app/](https://pslvgyanendra-health-data-fraud-streamlit-app-yxe6dt.streamlit.app/)`
+### 👇 Click below to explore the interactive dashboard
 
-> 💡 If your deployed Streamlit URL is different, replace the URL above with your actual app link.
+🔴 **[🚀 OPEN LIVE DASHBOARD](https://pslvgyanendra-health-data-fraud-streamlit-app-yxe6dt.streamlit.app/)**
+
+> 💡 The dashboard is deployed using **Streamlit Community Cloud** and provides interactive filters, KPIs, charts, and healthcare fraud-risk analysis.
 
 ---
 
 ## 📌 Project Overview
 
-Healthcare claims and provider data can contain complex patterns related to **payments, charges, utilization, provider activity, and potential fraud risk**.
+Healthcare provider and claims-related datasets contain large volumes of information about:
 
-This project transforms healthcare provider data into an **interactive analytical dashboard** that helps users:
+- 💰 Payments
+- 💵 Charges
+- 🏥 Provider activity
+- 📊 Utilization
+- 👥 Beneficiaries
+- 📍 Geographic patterns
+- ⚠️ Risk indicators
 
-- 🔎 Explore provider-level data
-- 📊 Analyze financial and operational KPIs
-- 🚨 Identify unusual or high-risk patterns
-- 📈 Compare providers and categories
-- 🎯 Filter the dashboard dynamically
-- 💡 Generate data-driven insights
+Analyzing these patterns manually can make it difficult to identify unusual provider behavior.
 
-The dashboard is designed as a **Data Analytics / Fraud Risk Analysis project**, not as a medical diagnosis system.
+This project transforms healthcare data into an **interactive analytical dashboard** that helps users explore the data, monitor important KPIs, compare providers, and identify potentially unusual financial and operational patterns.
 
----
-
-## 🎯 Business Problem
-
-Healthcare organizations handle large volumes of provider and claim-related data. Manually analyzing this information makes it difficult to identify:
-
-- Unusual payment patterns
-- High utilization
-- Significant charge-to-payment differences
-- Providers with unusual performance metrics
-- Potentially suspicious financial behavior
-
-### 💡 Objective
-
-Build an interactive analytics solution that converts raw healthcare data into **actionable fraud-risk insights** through KPIs, filters, and visualizations.
+> 🎯 **Project Type:** Data Analytics / Healthcare Fraud Risk Analysis  
+> 🧠 **Primary Focus:** Business Understanding + Exploratory Data Analysis + Risk Pattern Identification  
+> 🖥️ **Application:** Interactive Streamlit Dashboard
 
 ---
 
-## 📊 Key KPIs
+# 🎯 Business Problem
 
-The dashboard focuses on important healthcare financial and operational indicators, including:
+Healthcare organizations process large amounts of provider and payment-related data.
 
-| KPI | Purpose |
+The challenge is to identify patterns such as:
+
+🔎 Unusual payment activity  
+💰 Large differences between charges and payments  
+📊 Unusual utilization patterns  
+🏥 Provider-level performance differences  
+🚨 Potentially high-risk observations  
+📈 Significant variations across categories and locations  
+
+### 💡 Business Objective
+
+Build an interactive analytics solution that converts raw healthcare data into **meaningful KPIs, visual patterns, and fraud-risk indicators** that can support further investigation.
+
+---
+
+# 📊 Key Business KPIs
+
+The dashboard focuses on important healthcare financial and operational indicators.
+
+| KPI | Business Purpose |
 |---|---|
-| 💰 **Payment per Episode** | Measures the average payment associated with an episode |
+| 💰 **Payment per Episode** | Measures average payment associated with an episode |
 | 📉 **LUPA Rate** | Helps evaluate the frequency of Low Utilization Payment Adjustments |
 | 💵 **Charge-to-Payment Ratio** | Compares submitted charges with actual payments |
-| 🏥 **Provider Activity** | Helps understand provider-level operational patterns |
-| 🚨 **Risk Indicators** | Highlights patterns that may require further investigation |
+| 🏥 **Provider Activity** | Helps understand provider-level operational activity |
+| 🚨 **Risk Indicators** | Highlights unusual patterns that may require further investigation |
 
-> ⚠️ A high-risk indicator does **not** automatically mean fraud. It represents a pattern that may require additional investigation.
+### ⚠️ Important
+
+A high-risk indicator **does not automatically mean fraud**.
+
+It represents an unusual pattern that may require additional validation, investigation, and domain-level review.
 
 ---
 
-## 🎛️ Interactive Dashboard
+# 🎛️ Interactive Dashboard
 
-The Streamlit application provides interactive filtering and visualization capabilities.
+The dashboard allows users to interactively explore the healthcare dataset.
 
-### 🔹 Filters
+### 🔎 Dynamic Filters
 
-Users can dynamically filter the analysis using dashboard slicers such as:
+Users can filter the dashboard based on available dimensions such as:
 
-- 📍 Provider / Location-related dimensions
+- 📍 Provider / Location
 - 🏥 Provider categories
 - 📅 Relevant time periods
-- 📊 Other available categorical dimensions
+- 📊 Available categorical dimensions
+- 🔢 Other analytical attributes
 
-The selected filters dynamically update the dashboard's KPIs and visualizations.
+All major KPIs and visualizations update dynamically according to the selected filters.
 
 ---
 
-## 📈 Dashboard Visualizations
+# 📈 Dashboard Visualizations
 
-The dashboard contains multiple analytical visualizations designed to examine different dimensions of healthcare provider data.
+The dashboard provides multiple analytical views to understand different aspects of healthcare provider activity.
 
 ### 📊 Analytical Views
 
-- 📈 Trend analysis
-- 📊 Category-wise comparison
-- 🏥 Provider-level analysis
-- 💰 Payment and charge analysis
-- 🥧 Distribution analysis
-- 🚨 Fraud-risk pattern exploration
+📈 **Trend Analysis**  
+Understand how important metrics change across categories or periods.
 
-These visualizations allow users to move from **high-level KPIs → detailed patterns → potential risk areas**.
+📊 **Category Comparison**  
+Compare financial and operational metrics across different categories.
+
+🏥 **Provider-Level Analysis**  
+Identify providers showing unusual or significantly different patterns.
+
+💰 **Payment & Charge Analysis**  
+Analyze relationships between charges, payments, and related financial indicators.
+
+🥧 **Distribution Analysis**  
+Understand how providers, activities, and risk-related observations are distributed.
+
+🚨 **Fraud-Risk Pattern Analysis**  
+Explore unusual observations that may require further investigation.
 
 ---
 
-## 🧠 Analytical Approach
+# 🧠 Analytical Approach
 
-The project follows a practical data analytics workflow:
+The project follows a practical end-to-end Data Analytics workflow:
 
 ```text
 Raw Healthcare Data
-        ↓
-Data Loading
-        ↓
-Data Cleaning & Preparation
-        ↓
-Exploratory Data Analysis
-        ↓
-KPI Development
-        ↓
-Fraud-Risk Pattern Analysis
-        ↓
-Interactive Visualization
-        ↓
-Streamlit Dashboard
-        ↓
-Actionable Insights
-```
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|---|---|
-| 🐍 **Python** | Data analysis and application development |
-| 🧮 **Pandas** | Data manipulation and analysis |
-| 🔢 **NumPy** | Numerical operations |
-| 📊 **Plotly** | Interactive visualizations |
-| 🎨 **Streamlit** | Interactive dashboard and deployment |
-| 📁 **JSON** | Healthcare dataset storage |
-| 🐙 **Git & GitHub** | Version control and project hosting |
-| ☁️ **Streamlit Community Cloud** | Dashboard deployment |
-
----
-
-## 📂 Project Structure
-
-```text
-Health_Data_Fraud_Risk_Analysis/
-│
-├── 📁 data/
-│   └── health_data_100k.json
-│
-├── 🐍 app.py
-│
-├── 📄 requirements.txt
-│
-├── 📄 .gitattributes
-│
-└── 📄 README.md
-```
-
-### 📌 File Description
-
-**`app.py`**  
-Main Streamlit application containing the dashboard logic, data processing, KPIs, filters, and visualizations.
-
-**`data/health_data_100k.json`**  
-Healthcare dataset used by the dashboard.
-
-**`requirements.txt`**  
-Contains the Python dependencies required to run the application.
-
-**`.gitattributes`**  
-Git configuration used for handling the large dataset through Git LFS.
-
----
-
-## ⚙️ How to Run Locally
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/pslvgyanendra/Health_Data_Fraud_Risk_Analysis.git
-```
-
-### 2️⃣ Navigate to the project
-
-```bash
-cd Health_Data_Fraud_Streamlit
-```
-
-### 3️⃣ Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the Streamlit application
-
-```bash
-streamlit run app.py
-```
-
-### 5️⃣ Open the dashboard
-
-Streamlit will provide a local URL, normally similar to:
-
-```text
-http://localhost:8501
-```
-
----
-
-## 🔍 Fraud Risk Analysis Perspective
-
-This dashboard should be interpreted as a **risk-analysis and anomaly-identification tool**.
-
-The objective is to identify **unusual patterns**, such as:
-
-- 📌 Providers with unusually high payment activity
-- 📌 Significant differences between charges and payments
-- 📌 Unusual utilization patterns
-- 📌 Outlier provider behavior
-- 📌 Concentrations of activity in specific categories
-
-These signals can support **further investigation and decision-making**.
-
-> 🚨 **Important:** The dashboard does not independently establish that a provider committed fraud. Any fraud determination requires appropriate investigation, validation, and domain expertise.
-
----
-
-## 💼 Business Value
-
-The project demonstrates how data analytics can support healthcare organizations by:
-
-✅ Converting raw data into meaningful KPIs  
-✅ Reducing manual exploratory analysis  
-✅ Identifying unusual provider patterns  
-✅ Improving analytical visibility  
-✅ Supporting fraud-risk investigation  
-✅ Enabling interactive, filter-based exploration  
-✅ Presenting complex healthcare data in an understandable format  
-
----
-
-## 👨‍💻 Skills Demonstrated
-
-### Data Analytics
-
-- 🧹 Data Cleaning
-- 🔄 Data Transformation
-- 🔍 Exploratory Data Analysis
-- 📊 KPI Development
-- 📈 Data Visualization
-- 🚨 Fraud Risk Analysis
-- 💡 Business Insight Generation
-
-### Python
-
-- Pandas
-- NumPy
-- Plotly
-- Streamlit
-- JSON Data Handling
-
-### Deployment & Version Control
-
-- Git
-- GitHub
-- Git LFS
-- Streamlit Community Cloud
-
----
-
-## 🌟 Project Highlights
-
-- 📦 **100K-row healthcare dataset**
-- 🎛️ Interactive dashboard filters
-- 📊 Multiple analytical visualizations
-- 💰 Healthcare financial KPIs
-- 🚨 Fraud-risk pattern analysis
-- ⚡ Streamlit-based interactive interface
-- ☁️ Cloud-deployed dashboard
-- 🐙 GitHub version-controlled project
-
----
-
-## 📸 Dashboard Preview
-
-> Add screenshots of the dashboard here to make the GitHub repository more visually attractive.
-
-Example:
-
-```text
-📸 Dashboard Screenshot
-📸 KPI Section
-📸 Fraud Risk Analysis
-📸 Interactive Charts
-```
-
----
-
-## 🔗 Project Links
-
-| Resource | Link |
-|---|---|
-| 🌐 **Live Dashboard** | `[https://health-data-fraud-streamlit.streamlit.app/](https://pslvgyanendra-health-data-fraud-streamlit-app-yxe6dt.streamlit.app/)` |
-| 🐙 **GitHub Repository** | `https://github.com/pslvgyanendra/Health_Data_Fraud_Risk_Analysis` |
-
----
-
-## ⚠️ Disclaimer
-
-This project is created for **educational, analytical, and portfolio purposes**.
-
-The dashboard identifies analytical patterns and potential risk indicators. It should **not** be used as the sole basis for accusing a healthcare provider of fraud or making clinical, legal, or financial decisions.
-
----
-
-## 👤 Author
-
-### **Gyanendra Singh**
-
-📊 **Data Analyst | Python | SQL | Power BI | Tableau | Streamlit**
-
-🔗 **GitHub:** `https://github.com/pslvgyanendra`
-
----
-
-## ⭐ Support
-
-If you find this project useful:
-
-⭐ **Star the repository**  
-🍴 **Fork the project**  
-💬 **Share your feedback**
-
----
-
-### 🚀 Built with Python, Streamlit & Data Analytics
-
-**Turning healthcare data into actionable insights. 📊🏥**
+        │
+        ▼
+📥 Data Loading
+        │
+        ▼
+🧹 Data Cleaning & Preparation
+        │
+        ▼
+🔍 Exploratory Data Analysis
+        │
+        ▼
+📊 Business Understanding
+        │
+        ▼
+📐 KPI Development
+        │
+        ▼
+🚨 Fraud-Risk Pattern Analysis
+        │
+        ▼
+📈 Data Visualization
+        │
+        ▼
+🎛️ Interactive Streamlit Dashboard
+        │
+        ▼
+💡 Business Insights
